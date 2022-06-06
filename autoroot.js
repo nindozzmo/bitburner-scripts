@@ -29,8 +29,8 @@ export async function main(ns) {
 				const toolsFunctions = [ns.brutessh, ns.ftpcrack, ns.relaysmtp, ns.httpworm, ns.sqlinject]; //functions for ports opening
 
 				const toolsFiles = [ns.fileExists("BruteSSH.exe", "home"), ns.fileExists("FTPCrack.exe", "home"), //check if apps
-									ns.fileExists("relaySMTP.exe", "home"), ns.fileExists("HTTPWorm.exe", "home"), //exist on 'home'
-									ns.fileExists("SQLInject.exe", "home")];
+							ns.fileExists("relaySMTP.exe", "home"), ns.fileExists("HTTPWorm.exe", "home"), //exist on 'home'
+							ns.fileExists("SQLInject.exe", "home")];
 
 				for (let i = 0; i < ports; i++) { //open required ports
 					if (toolsFiles[i]) {
