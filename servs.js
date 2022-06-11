@@ -2,6 +2,9 @@
 
 // Code by Nindozzmo
 
+//!!! FOR CORRECT WORK OF THIS SCRIPT YOU SHOULD COPY FILE hacktools.js FROM GIT TO YOUR 'home' IN THE GAME!!!
+//!!! https://github.com/nindozzmo/bitburner-scripts/blob/main/hacktools.js !!!
+
 // This is a script for purchased servers batch operations.
 
 //////// v1.2 
@@ -16,7 +19,8 @@
 ////////// 2. get rid of the copy function;(?)
 ////////// 3. add delays to the run function hack, grow and weaken;
 ////////// 4. change behaviour of the run function (copy hacktools.js instead of any file);
-////////// 5. rename the run function (name should be 'hack').
+////////// 5. rename the run function (name should be 'hack');
+////////// 6. add global check for the hacktools.js on 'home' and autocopy from git if needed;
 
 // How to use:
 // terminal: run servs.js [action] [argument 1] [argument 2]
